@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graylight"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/gradientbackground">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#ffffff"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_email_black_24dp"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_contact_phone_black_24dp" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/ic_public_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="419dp"
+        android:layout_marginTop="270dp"
+        android:text="Le projet vise à améliorer la sécurité et le confort des utilisateurs des voitures en réalisant un système d’auto-surveillance d’une voiture à distance. Ce système a pour rôle d’informer le propriétaire, à l’aide de son Smartphone ANDROID de l’état de sa voiture et de lui offrir, aussi, le privilège de localiser sa voiture à partir de  n’importe quelle distance."
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "121574569247",
+    "firebase_url": "https://testbase-6b500.firebaseio.com",
+    "project_id": "testbase-6b500",
+    "storage_bucket": "testbase-6b500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121574569247:android:260b33d1054dccda",
+        "android_client_info": {
+          "package_name": "com.example.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121574569247-8od842gh7jmetjmfp03jaak3cu8l0svd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginapp",
+            "certificate_hash": "5dbef55de0d76463e6d0d697a06efc76309a7590"
+          }
+        },
+        {
+          "client_id": "121574569247-o3t792v8doiumlg0hrfrbkdkepaamv20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginapp",
+            "certificate_hash": "d6e4c6cc23aeb8347ea8f5842d45574dca36e927"
+          }
+        },
+        {
+          "client_id": "121574569247-0jo6mi0oges05duih6i1b3nab1p6d026.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Dvsmcuq-VLBmCVyfR-sZCOXADs0M5B8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121574569247-0jo6mi0oges05duih6i1b3nab1p6d026.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
